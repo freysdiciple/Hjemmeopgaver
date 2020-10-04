@@ -16,7 +16,7 @@ public class Opgave3 {
 		int nOfCrosses = needleThrows(nReps);
 			
 		//Prints out the estimated value of PI
-		System.out.println((double)nReps/nOfCrosses);
+		System.out.println(nReps + " / " + nOfCrosses + " = " + (double)nReps/nOfCrosses);
 		
 	}
 	
