@@ -58,6 +58,7 @@ public class Opgave3 {
 			Boolean crossed = (needleEnd1 > 2 || needleEnd2 < 0) ? true : false;
 			if(crossed){cases++;}
 		}
+		if(cases == 0) {cases++;}
 		return cases;
 	}
 	
